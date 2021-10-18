@@ -1,2 +1,2 @@
 # ReactJS
-proyectos en React
+proyecto realizado en UTN
