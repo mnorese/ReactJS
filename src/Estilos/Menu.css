@@ -1,0 +1,88 @@
+.saludo{
+    color: blue;
+    margin-top: 8px;
+    margin-left: 200px;
+}
+.banner{
+    filter: drop-shadow(0 0 5px darkgray);
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    background-color:white ;
+    animation: move linear 2000ms infinite;
+    z-index: 2;
+}
+.image{
+    width:30px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.barra{
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+
+@keyframes move {
+    0% {
+        text-shadow: 
+            4px  -4px 0 #da0641,
+            3px  -3px 0 #da0641,
+            2px  -2px 0 #da0641,
+            1px  -1px 0 #da0641,
+            -4px  4px 0 #13f1fc,
+            -3px  3px 0 #13f1fc,
+            -2px  2px 0 #13f1fc,
+            -1px  1px 0 #13f1fc,
+        ;    
+    }
+    25% {
+        text-shadow: 
+            -4px  -4px 0 #13f1fc,
+            -3px  -3px 0 #13f1fc,
+            -2px  -2px 0 #13f1fc,
+            -1px  -1px 0 #13f1fc,
+            4px  4px 0 #da0641,
+            3px  3px 0 #da0641,
+            2px  2px 0 #da0641,
+            1px  1px 0 #da0641,
+        ;    
+    }
+    50% {
+        text-shadow: 
+            -4px  4px 0 #da0641,
+            -3px  3px 0 #da0641,
+            -2px  2px 0 #da0641,
+            -1px  1px 0 #da0641,
+            4px  -4px 0 #13f1fc,
+            3px  -3px 0 #13f1fc,
+            2px  -2px 0 #13f1fc,
+            1px  -1px 0 #13f1fc,
+        ;    
+    }
+    75% {
+        text-shadow: 
+            4px  4px 0 #13f1fc,
+            3px  3px 0 #13f1fc,
+            2px  2px 0 #13f1fc,
+            1px  1px 0 #13f1fc,
+            -4px  -4px 0 #da0641,
+            -3px  -3px 0 #da0641,
+            -2px  -2px 0 #da0641,
+            -1px  -1px 0 #da0641,
+        ;    
+    }
+    100% {
+        text-shadow: 
+            4px  -4px 0 #da0641,
+            3px  -3px 0 #da0641,
+            2px  -2px 0 #da0641,
+            1px  -1px 0 #da0641,
+            -4px  4px 0 #13f1fc,
+            -3px  3px 0 #13f1fc,
+            -2px  2px 0 #13f1fc,
+            -1px  1px 0 #13f1fc,
+        ;
+    }
+}

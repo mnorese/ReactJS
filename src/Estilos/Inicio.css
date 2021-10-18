@@ -1,0 +1,23 @@
+.carousel{
+    width: 1050px;
+    height:280px;
+    background-color:white;
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 30%;
+}
+.images{
+    width: 1030px;
+    height: 260px;
+    margin-top: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    
+}
+
+.galeria{
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 30%;
+}
